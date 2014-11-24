@@ -73,9 +73,9 @@ def read_version(mod_filepath):
 
 # basics ----------------------------------------------------------------------
 
-NAME = 'goosetypes'
+NAME = 'GooseTypes'
 
-ROOT_PKG_NAME = _re.sub(r'[^\d\w]', '_', _re.sub(r'^[^\w]', '_', NAME))
+ROOT_PKG_NAME = _re.sub(r'[^\d\w]', '_', _re.sub(r'^[^\w]', '_', NAME.lower()))
 
 ROOT_PKG_ABSPATH = file_abspath_from_parts(*(ROOT_PKG_NAME.split('.')
                                               + ['__init__.py']))
