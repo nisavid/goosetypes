@@ -55,12 +55,12 @@ Like the latter approach, goose types are more useful when it is
 desirable to perform complex validation up front.  With Goose Types,
 complex type checking code to be extracted from a function body into the
 body of a goose type, leaving behind an invocation of `isinstance()`_ or
-`issubclass()`.  In the sense that this is runtime checking of desirable
-interface behavior, this is like duck typing.  However, unlike the
-conventional "walks"/"quacks" tests of duck typing, this can be used for
-checks that are exactly as extensive, specific, or generic as needed,
-without littering the code of functions that merely need to invoke a
-type check.
+`issubclass()`_.  In the sense that this is runtime checking of
+desirable interface behavior, this is like duck typing.  However, unlike
+the conventional "walks"/"quacks" tests of duck typing, this can be used
+for checks that are exactly as extensive, specific, or generic as
+needed, without littering the code of functions that merely need to
+invoke a type check.
 
 
 .. _duck typing: https://en.wikipedia.org/wiki/Duck_typing
