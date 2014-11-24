@@ -1,6 +1,6 @@
 """Goose Types"""
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __copyright__ = "Copyright (C) 2014 Ivan D Vasin"
 __docformat__ = "restructuredtext"
 __maintainer__ = "Ivan D Vasin"
